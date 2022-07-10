@@ -33,14 +33,14 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Clone source and install
         run: |
-          git clone https://github.com/paldier/prplwrt
+          git clone https://github.com/tenfar/prplwrt
           cd prplwrt
           ./scripts/gen_config.py intel_mips prpl webui luci wav500
           cd package/feeds/luci
           ln -sf ../../../feeds/luci/collections/luci ./
           cd ../../../
           rm .config
-          cp k3c.config .config
+          cp c4000xg.config .config
           
       - name: Build
         run: |

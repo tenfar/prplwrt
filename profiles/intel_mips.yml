@@ -1,15 +1,16 @@
 ---
 profiles:
   - NETGEAR_RAX40
+  - GREENWAVE_C4000XG
   - AX6000_2000_ETH_11AXUCI
   - AX3000_1600_ETH_11AXUCI_ASURADA
 target: intel_mips
 subtarget: xrx500
 external_target: True
-description: Build images for the Intel MIPS devices - Netgear RAX40, AxePoint and Asurada
+description: Build images for the Intel MIPS devices - Netgear RAX40, AxePoint,GreenWave C4000XG and Asurada
 feeds:
   - name: feed_intel
-    uri: https://github.com/paldier/feed-intel.git
+    uri: https://github.com/tenfar/feed-intel.git
     tracking_branch: ugw-8.4.2-cleanup
     revision: bc61fa9c62634664f8c632962b71ef3460102524
   - name: feed_prpl
