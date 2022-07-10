@@ -35,7 +35,7 @@ jobs:
         run: |
           git clone https://github.com/tenfar/prplwrt
           cd prplwrt
-          ./scripts/gen_config.py intel_mips prpl webui luci wav500
+          ./scripts/gen_config.py intel_mips prpl webui luci wave500
           cd package/feeds/luci
           ln -sf ../../../feeds/luci/collections/luci ./
           cd ../../../
