@@ -13,9 +13,6 @@ feeds:
 #    uri: https://github.com/paldier/wav500_driver.git
 #    tracking_branch: master
 #    revision: a9f1cf5fa705588492ea79b2d44b53d29b6972c0
-  - name: helloworld
-    uri: https://github.com/fw876/helloworld.git
-    tracking_branch: master
 
 packages:
   - ltq-wlan-wave_5_x
