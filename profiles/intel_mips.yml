@@ -1,4 +1,5 @@
 ---
+profile: GREENWAVE_C4000XG
 profiles:
   - NETGEAR_RAX40
   - GREENWAVE_C4000XG
