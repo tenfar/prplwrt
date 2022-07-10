@@ -2,7 +2,7 @@
 description: Build images for the Intel MIPS devices - wave500
 feeds:
   - name: wav500_driver_bin
-    uri: https://gitlab.com/tenfar/wav500_driver_bin.git
+    uri: https://github.com/tenfar/wav500_driver_bin.git
     tracking_branch: main
     revision: fba25c5faedae2de74dcdeef8a2c28e01cdd8553
 #  - name: wav500_ax_image
